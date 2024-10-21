@@ -21,7 +21,7 @@ function AddTodo({ maintask, setMainTask }) {
             {/* form  */}
             <form onSubmit={submitHandler}>
                 <Input  type={'text'}  placeholder="Enter title here...." value={title} onChangeValue={settitle}/>
-                <Input  type={'email'}  placeholder="Enter email  here...." value={desc} onChangeValue={setDesc}/>
+                <Input  type={'text'}  placeholder="Enter desc  here...." value={desc} onChangeValue={setDesc}/>
                 <button className='bg-black text-white px-4 py-3 text-2xl font-bold rounded m-5'>Add Task</button>
             </form>
         </>
